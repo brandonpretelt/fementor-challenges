@@ -18,22 +18,36 @@
     <main>
 
       <section class="hero-section">
-        <img src="./images/image-header-mobile.jpg" alt="header image, people in a meeting">
-        <h1> Get <span>insights</span> that help your business grow. </h1>
+        <div class="hero-section__overlay">
+          <img src="./images/image-header-mobile.jpg" alt="header image, people in a meeting">
+        </div>
+        <!-- <h1> Get <span>insights</span> that help your business grow. </h1> -->
       </section>
 
       <section class="content-area">
+        <div class="content-area__tagline">
+          <h1> Get <span>insights</span> that help your business grow. </h1>
+        </div>
         <article>
           <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
             experience, and overall efficiency.</p>
-          <p>
-            <span class="span-heading">10k+</span>   
-            <span class="span-small">companies</span>
-            <span class="span-heading">314</span>
-            <span class="span-small">templates</span>   
-            <span class="span-heading">12m+</span>
-            <span class="span-small">queries</span>
-          </p>
+          <div class="stats-container">
+            <div class="stats-container__stats">
+              <span class="stats-container__stats--heading">10k+</span>   
+              <span class="stats-container__stats--small">companies</span>
+            </div>
+
+            <div class="stats-container__stats">
+              <span class="stats-container__stats--heading">314</span>
+              <span class="stats-container__stats--small">templates</span>   
+            </div>
+
+            <div class="stats-container__stats">
+              <span class="stats-container__stats--heading">12M+</span>
+              <span class="stats-container__stats--small">queries</span>
+            </div>
+
+          </div>
         </article>
       </section>
 
