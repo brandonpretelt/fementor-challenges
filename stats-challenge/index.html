@@ -19,9 +19,18 @@
 
       <section class="hero-section">
         <div class="hero-section__overlay">
-          <img src="./images/image-header-mobile.jpg" alt="header image, people in a meeting">
+          <picture class="hero-section__heroImg">
+             <source 
+                  media="(min-width: 1440px)"
+                  type="image/jpg"
+                  srcset="./images/image-header-desktop.jpg 1440w">
+            <img
+            class="hero-section__heroImg" 
+            src="./images/image-header-mobile.jpg"
+            alt="header image, people in a meeting"> 
+          </picture>
+
         </div>
-        <!-- <h1> Get <span>insights</span> that help your business grow. </h1> -->
       </section>
 
       <section class="content-area">
@@ -31,6 +40,9 @@
         <article>
           <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
             experience, and overall efficiency.</p>
+          </article>
+          
+          
           <div class="stats-container">
             <div class="stats-container__stats">
               <span class="stats-container__stats--heading">10k+</span>   
@@ -48,16 +60,17 @@
             </div>
 
           </div>
-        </article>
+
       </section>
 
   
     </main>
+
   </div>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/brandonpretelt">Brandon Pretelt</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a> 
+    Coded by <a href="https://github.com/brandonpretelt">Brandon Pretelt.</a>
   </div>
 </body>
 </html>
