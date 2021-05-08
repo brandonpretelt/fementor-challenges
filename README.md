@@ -13,10 +13,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
     -   [What I learned](#what-i-learned)
     -   [Continued development](#continued-development)
     -   [Useful resources](#useful-resources)
--   [Author](#author)
+    
 -   [Acknowledgments](#acknowledgments)
-
-_Note: Delete this note and update the table of contents based on what sections you keep._
 
 ## Overview
 
@@ -28,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile view](https://imgur.com/a/Rca8Ldm)
+[Mobile view](https://imgur.com/a/Rca8Ldm)
 Mobile view
 
-![Mobile view](https://imgur.com/a/61QHcsu)
+[Mobile view](https://imgur.com/a/61QHcsu)
 Mobile view
 
-![Desktop view](https://imgur.com/a/5mAfIpr)
+[Desktop view](https://imgur.com/a/5mAfIpr)
 Desktop view
 
 ### Links
