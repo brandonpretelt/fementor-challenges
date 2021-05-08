@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-[Mobile view](https://imgur.com/a/Rca8Ldm)]
+[Mobile view](https://imgur.com/a/Rca8Ldm)
 Mobile view
 
 [Mobile view](https://imgur.com/a/61QHcsu)
