@@ -86,7 +86,7 @@ section p, section > span {
     color: var(--clr-white-tp-60);
 }
 
-article p {
+p {
     font-size: 17px;
 }
 
@@ -151,7 +151,8 @@ article p {
         font-size: 2.5rem;
     }
 
-    article p {
+    p {
+
         font-size: 20px;
         margin-top: 10px;
     }
@@ -165,9 +166,8 @@ article p {
         border-radius: 0 10px 10px 0;
     }
 
-    .content-area__tagline h1, article {
+    .content-area__tagline h1, p {
         text-align: left;
-        display: block;
     }
 
     .content-area {
@@ -180,15 +180,15 @@ article p {
     }
     
     .content-area > .content-area__tagline {
-        padding: 6%;
-        padding-bottom: 0;;
+        padding: 4%;
+        padding-bottom: 0;
     }
 
-    .content-area > article p {
+    .content-area > p {
         padding: 0 4%;
     }
 
-    .content-area__tagline, article {
+    .content-area__tagline, p {
         padding: 10px;
     }
 
