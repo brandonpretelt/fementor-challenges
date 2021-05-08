@@ -13,7 +13,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
     -   [What I learned](#what-i-learned)
     -   [Continued development](#continued-development)
     -   [Useful resources](#useful-resources)
-    
 -   [Acknowledgments](#acknowledgments)
 
 ## Overview
@@ -37,9 +36,9 @@ Desktop view
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
+-   Solution URL: [My Solution](https://www.frontendmentor.io/solutions/card-component-using-css-flex-grid-tCjCSIbkL)
 
--   Live Site URL: [Live Solution](https://brandonpretelt.com/festatspreviewcard/index.html)
+-   Live Site URL: [Live Solution](https://brandonpretelt.github.io/fementor-challenges/stats-challenge/)
 
 ## My process
 
