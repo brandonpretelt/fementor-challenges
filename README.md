@@ -28,10 +28,20 @@ Users should be able to:
 
 ### Screenshot
 
+![Mobile view](https://imgur.com/a/Rca8Ldm)
+Mobile view
+
+![Mobile view](https://imgur.com/a/61QHcsu)
+Mobile view
+
+![Desktop view](https://imgur.com/a/5mAfIpr)
+Desktop view
+
 ### Links
 
 -   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+-   Live Site URL: [Live Solution](https://brandonpretelt.com/festatspreviewcard/index.html)
 
 ## My process
 
@@ -72,6 +82,11 @@ Naming conventions and understanding CSS is where I could gain to stand more exp
 
 -   [Achieve Image Colour Overlay CSS](https://dev.to/ellen_dev/two-ways-to-achieve-an-image-colour-overlay-with-css-eio) - This is the resource I mentioned about a color overlay on an image. It's a pretty nice read.
 
+-   [Build Responisve Images](https://www.sitepoint.com/how-to-build-responsive-images-with-srcset/)
+    This source reminded me how to do some responsive images. I did something similar in school but, I've forgotten due to my lack of practice. It's a great resoource.
+
 ## Acknowledgments
 
 Thanks to [ellen_dev](https://twitter.com/ellen_dev), I was able to get that overlay.
+
+Thanks to [@saurabhkirtani](https://twitter.com/saurabhkirtani) for the wonderful Sitepoint article on responsive images.
