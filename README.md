@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-[![Mobile view](https://imgur.com/a/Rca8Ldm)]
+[Mobile view](https://imgur.com/a/Rca8Ldm)]
 Mobile view
 
-![Mobile view](https://imgur.com/a/61QHcsu)
+[Mobile view](https://imgur.com/a/61QHcsu)
 Mobile view
 
-![Desktop view](https://imgur.com/a/5mAfIpr)
+[Desktop view](https://imgur.com/a/5mAfIpr)
 Desktop view
 
 ### Links
