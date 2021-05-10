@@ -15,6 +15,6 @@
 
 [3 Column Preview Card Component](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)
 
-[coming soon]() Coming Soon
+[Live Site](https://brandonpretelt.github.io/fementor-challenges/column-preview-card/)
 
 [Git Branch for Second Challenge](https://github.com/brandonpretelt/fementor-challenges/tree/second-challenge)
