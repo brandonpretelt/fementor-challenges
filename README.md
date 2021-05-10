@@ -8,4 +8,6 @@
 [Live Site](https://brandonpretelt.com/festatspreviewcard/index.html)
 
 
-[Git Branch for Challenge](https://github.com/brandonpretelt/fementor-challenges/tree/first-challenge)
+[Git Branch for First Challenge](https://github.com/brandonpretelt/fementor-challenges/tree/first-challenge)
+
+[Git Branch for Second Challenge](https://github.com/brandonpretelt/fementor-challenges/tree/second-challenge)
