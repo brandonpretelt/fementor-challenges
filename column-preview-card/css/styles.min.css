@@ -1,0 +1,257 @@
+/*** Andy Bell Modern CSS Reset ***/
+/*** https://dev.to/hankchizljaw/a-modern-css-reset-6p3  ***/
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/******* COLORS *******/
+/***  Primary ***/
+/*** Neutral ***/
+/* paragraphs */
+/* bg, headings, buttons */
+/******* TYPOGRAPHY *******/
+/******* OTHER *******/
+body {
+  background-color: #f2f2f2;
+  font-size: 0.9375rem;
+  font-family: "Lexend Deca", "sans-serif";
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section:first-child {
+  margin-top: 50px;
+}
+
+section:last-child {
+  padding-bottom: 20px;
+}
+
+section .content__section {
+  padding: 0 12%;
+  margin: 0 2rem;
+  min-width: 80vw;
+  max-width: 100%;
+  min-height: 100vw;
+  max-height: 100%;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+section .content__btn {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.75);
+  transform: translateY(5px);
+  padding: 6% 2.5rem;
+  border-radius: 100vw;
+  text-decoration: none;
+  margin-bottom: 80px;
+}
+
+section .content__btn--orange {
+  color: #e38826;
+}
+
+section .content__btn--cyan {
+  color: #006970;
+}
+
+section .content__btn--darkcyan {
+  color: #004241;
+}
+
+.content__section h2 {
+  font-size: 2.5rem;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 1.5626rem 0;
+}
+
+.content__section i {
+  display: block;
+  padding-top: 22%;
+}
+
+.content__section p {
+  line-height: 2;
+}
+
+.content__section.content__section--orange {
+  background-color: #e38826;
+  border-radius: 10px 10px 0 0;
+  margin-top: 20%;
+}
+
+.content__section.content__section--cyan {
+  background-color: #006970;
+}
+
+.content__section.content__section--darkcyan {
+  background-color: #004241;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 100px;
+}
+
+footer {
+  padding: 8%;
+  background-color: white;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    line-height: 1;
+    overflow: hidden;
+  }
+  main {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  main section:first-child {
+    margin: 0;
+    padding: 0;
+  }
+  main section:last-child {
+    margin: 0;
+    padding: 0;
+  }
+  main .content__section {
+    padding: 3rem;
+    margin: 0;
+    min-width: 100%;
+    min-height: 80vh;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  main .content__section h2 {
+    font-size: 3.75rem;
+    margin-top: 2.5rem;
+  }
+  main .content__section p {
+    margin-top: -10px;
+    padding: 2%;
+    line-height: 2;
+    font-size: 1.05122rem;
+    /* 1.05125rem maybe */
+    letter-spacing: 1px;
+  }
+  main .content__section i {
+    display: block;
+    width: 200px;
+    max-width: 100%;
+    padding-top: 2%;
+  }
+  main .content__section .content__btn {
+    transform: translateY(5rem);
+    font-size: 1.03125rem;
+  }
+  main .content__section .content__btn:hover {
+    border: solid 2px white;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  main .content__section.content__section--orange,
+  main .content__section.content__section--darkcyan {
+    margin: 0;
+    border-radius: 0;
+  }
+  main .content__section.content__section--orange {
+    border-radius: 10px 0 0 10px;
+  }
+  main .content__section.content__section--darkcyan {
+    border-radius: 0 10px 10px 0;
+  }
+  footer {
+    padding: 2%;
+  }
+}

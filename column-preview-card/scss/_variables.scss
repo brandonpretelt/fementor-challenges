@@ -1,0 +1,20 @@
+/******* COLORS *******/
+/***  Primary ***/
+$clr-orange-31: hsl(31, 77%, 52%);
+$clr-darkcyan-184: hsl(184, 100%, 22%);
+$clr-very-darkcyan-179: hsl(179, 100%, 13%);
+
+/*** Neutral ***/
+$clr-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
+$clr-verylightgray: hsl(0, 0%, 95%); /* bg, headings, buttons */
+
+/******* TYPOGRAPHY *******/
+$fs-body: 0.9375rem;
+$fs-l-heading: 2.5rem;
+// $fs-m-heading;;
+// $fs-s-heading:;
+$ff-bigshoulder: 'Big Shoulders Display', sans-serif;
+$ff-lexend: 'Lexend Deca', 'sans-serif';
+
+/******* OTHER *******/
+$gutter: 2%;
