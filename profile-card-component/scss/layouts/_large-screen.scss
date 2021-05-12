@@ -1,0 +1,10 @@
+@use '../abstracts' as *;
+
+@media screen and (min-width: $large) {
+    /** Attribution and stuff **/
+
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+}

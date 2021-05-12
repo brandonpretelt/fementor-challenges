@@ -1,3 +1,8 @@
+/** My Modified 7 in 1 pattern **/
 @use 'abstracts' as *;
-@use 'small' as *;
-@use 'large-screen' as *;
+@use 'base' as *;
+@use 'layouts' as *;
+
+// // /** Screen sizes **/
+// @use 'small' as *;
+// @use 'large-screen' as *;

@@ -1,0 +1,31 @@
+@use '../abstracts/' as *;
+
+body {
+    font-size: $fs-body;
+    font-family: $ff-kumbh;
+}
+
+.card___userInfo--username,
+.card___userSocialFollowings > h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.card___userInfo--age,
+.card___userInfo--location {
+    font-size: 1.4rem;
+}
+
+.card___userInfo--location {
+    text-align: center;
+}
+
+.card___userInfo--age,
+.card___userInfo--location,
+.card___userSocialFollowings > h2 span {
+    color: $clr-darkgray;
+}
+
+.card___userSocialFollowings .card___userSocialFollowings--count {
+    text-transform: uppercase;
+}
