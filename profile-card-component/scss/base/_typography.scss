@@ -5,27 +5,36 @@ body {
     font-family: $ff-kumbh;
 }
 
-.card___userInfo--username,
-.card___userSocialFollowings > h2 {
-    font-weight: 700;
-    font-size: 1.5rem;
-}
+.card {
+    &___age,
+    &___location,
+    &___ctg {
+        color: $clr-darkgray;
+    }
 
-.card___userInfo--age,
-.card___userInfo--location {
-    font-size: 1.4rem;
-}
+    &___count {
+        text-transform: uppercase;
+        font-size: $fs-body * 1.1;
+        margin-bottom: -0.1875rem;
+    }
 
-.card___userInfo--location {
-    text-align: center;
-}
+    &___username,
+    &___username &___age {
+        text-align: center;
+        padding: 0.5em 0;
+        font-size: $fs-body * 1.105;
+        letter-spacing: 1px;
+    }
 
-.card___userInfo--age,
-.card___userInfo--location,
-.card___userSocialFollowings > h2 span {
-    color: $clr-darkgray;
-}
+    &___username &___age {
+        font-weight: 300;
+        padding-left: 0.25em;
+    }
 
-.card___userSocialFollowings .card___userSocialFollowings--count {
-    text-transform: uppercase;
+    &___followers &___ctg {
+        text-transform: none;
+        font-size: 0.8125rem;
+        letter-spacing: 2px;
+        font-weight: 300;
+    }
 }
