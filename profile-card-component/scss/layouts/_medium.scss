@@ -1,0 +1,11 @@
+@use '../abstracts/' as *;
+
+@media screen and (min-width: $medium) {
+    body {
+        overflow: auto;
+    }
+    .card {
+        margin: 0.5em auto;
+        margin-top: 8em;
+    }
+}
