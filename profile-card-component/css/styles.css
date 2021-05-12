@@ -115,10 +115,24 @@ body {
 }
 
 .card {
-  width: 350px !important;
   max-width: 100%;
   background-color: #fff;
-  padding: 2em;
+}
+.card___profileImg {
+  border-radius: 20px 20px 0 0;
+  background-image: url(../images/bg-pattern-card.svg);
+  min-height: 10em;
+  width: 100vw;
+  max-width: 100%;
+  margin-bottom: 5.5em;
+}
+.card___profileImg img {
+  border-radius: 50vw;
+  width: 35vw;
+  max-width: 100%;
+  padding: 4px;
+  background-color: #fff;
+  border: solid 3px white;
 }
 
 .card___container .card {
