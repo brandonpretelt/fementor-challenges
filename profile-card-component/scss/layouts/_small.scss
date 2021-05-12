@@ -10,10 +10,29 @@ body {
 }
 
 .card {
-    width: 350px !important;
+    // width: 21.875rem;
     max-width: 100%;
     background-color: #fff;
-    padding: 2em;
+    &___profileImg {
+        border-radius: 20px 20px 0 0;
+        background-image: url(../images/bg-pattern-card.svg);
+        min-height: 10em;
+        width: 100vw;
+        max-width: 100%;
+        margin-bottom: 5.5em;
+        img {
+            border-radius: 50vw;
+            // position: absolute;
+            // top: 135px;
+            // left: 120px;
+            width: 35vw;
+            max-width: 100%;
+            padding: 4px;
+            background-color: #fff;
+            border: solid 3px white;
+            // transform: translate(100px, 115px);
+        }
+    }
 }
 
 .card___container .card {
