@@ -169,10 +169,8 @@ body {
   align-items: center;
 }
 
-@media screen and (min-width: 90em) {
-  /** Attribution and stuff **/
+@media screen and (min-width: 26rem) {
   body {
-    background-position-x: -10rem, 50rem;
     overflow: auto;
   }
 
@@ -180,6 +178,14 @@ body {
     margin: 0.5em auto;
     margin-top: 8em;
   }
+}
+@media screen and (min-width: 90em) {
+  /** Attribution and stuff **/
+  body {
+    background-position-x: -10rem, 50rem;
+    overflow: auto;
+  }
+
   .card___pfp {
     transform: translate(135px, 105px);
   }
