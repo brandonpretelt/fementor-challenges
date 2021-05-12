@@ -3,6 +3,19 @@
 @media screen and (min-width: $large) {
     /** Attribution and stuff **/
 
+    body {
+        background-position-x: -10rem, 50rem;
+        overflow: auto;
+    }
+
+    .card {
+        margin: 0.5em auto;
+        margin-top: 8em;
+        &___pfp {
+            transform: translate(135px, 105px);
+        }
+    }
+
     .attribution {
         font-size: 11px;
         text-align: center;

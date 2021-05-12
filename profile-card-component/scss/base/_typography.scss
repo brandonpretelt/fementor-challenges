@@ -21,7 +21,8 @@ body {
     &___username,
     &___username &___age {
         text-align: center;
-        padding: 0.5em 0;
+        padding: 0.5em;
+        transform: translateX(10px);
         font-size: $fs-body * 1.105;
         letter-spacing: 1px;
     }
