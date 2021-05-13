@@ -1,7 +1,11 @@
 @use '../abstracts' as *;
 
+.attribution {
+    text-align: center;
+}
+
 .attribution a {
-    color: $clr-darkgray;
+    color: $clr-desat-blue;
 }
 
 body {
