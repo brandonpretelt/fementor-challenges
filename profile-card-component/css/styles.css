@@ -107,8 +107,12 @@ body {
   font-weight: 300;
 }
 
+.attribution {
+  text-align: center;
+}
+
 .attribution a {
-  color: #969696;
+  color: #2d3248;
 }
 
 body {
@@ -179,7 +183,7 @@ body {
     margin-top: 8em;
   }
 }
-@media screen and (min-width: 90em) {
+@media screen and (min-width: 87.5em) {
   /** Attribution and stuff **/
   body {
     background-position-x: -10rem, 50rem;
@@ -192,7 +196,6 @@ body {
 
   .attribution {
     font-size: 11px;
-    text-align: center;
   }
 }
 /** My Modified 7 in 1 pattern **/
